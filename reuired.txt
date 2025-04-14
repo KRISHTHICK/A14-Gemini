@@ -1,0 +1,16 @@
+#Install These Packages First
+pip install streamlit langchain pypdf sentence-transformers chromadb ctransformers
+
+# Download a Local LLM (like Gemma or Mistral)
+# Go to: https://huggingface.co/TheBloke
+
+# Choose a model like:
+
+# gemma-2b-it.Q4_K_M.gguf or
+
+# mistral-7b-instruct-v0.1.Q4_K_M.gguf
+
+# 💾 Place the downloaded .gguf file in your project folder (e.g. models/)
+
+ # Run with Streamlit
+ # streamlit run chatbot.py
